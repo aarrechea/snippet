@@ -29,7 +29,7 @@ DEBUG = config("DEBUG", default=True, cast=bool)
 
 #ALLOWED_HOSTS = ["django-snippets-crud.herokuapp.com/"]
 
-ALLOWED_HOSTS = ["cryptic-sands-51328.herokuapp.com/"]
+ALLOWED_HOSTS = ["cryptic-sands-51328.herokuapp.com/", "*"]
 #ALLOWED_HOSTS = []
 
 # Application definition

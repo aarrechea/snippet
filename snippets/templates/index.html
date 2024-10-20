@@ -3,7 +3,7 @@
     <div class="row justify-content-md-center" style="padding-top:20px;">
         <div class="col-md-8">
             <h1 class="py-3">Snippets</h1>
-                {% comment %} {% if snippets %}
+                {% if snippets %}
                     {% for i in snippets %}
                         <!-- SNIPPET -->
                         <div class="card">
@@ -27,7 +27,7 @@
                     {% endfor %}
                 {% else %}
                     <h3>There is no snippets yet</h3>
-                {% endif %} {% endcomment %}
+                {% endif %}
             <!-- FIN SNIPPET -->
         </div>
     </div>
